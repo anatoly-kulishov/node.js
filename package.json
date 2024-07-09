@@ -1,0 +1,23 @@
+{
+  "name": "lesson-03",
+  "version": "1.0.0",
+  "main": "src/index.ts",
+  "repository": "https://github.com/anatoly-kulishov/node.js.git",
+  "author": "Anatoly Kulishov <anatoly.kulishov99@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon dist/index.js",
+    "watch": "tsc -w"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/node": "^20.14.10",
+    "nodemon": "^3.1.4",
+    "ts-node": "^10.9.2",
+    "tsc": "^2.0.4",
+    "typescript": "^5.5.3"
+  }
+}
