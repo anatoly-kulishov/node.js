@@ -1,0 +1,21 @@
+fetch('http://localhost:3003/courses', {
+    method: 'post',
+    body: JSON.stringify({
+        title: 'Full-stack'
+    }),
+    headers: {
+        'Content-Type': 'application/json'
+    }
+})
+
+fetch('http://localhost:3003/courses/4', {method: 'delete'})
+
+fetch('http://localhost:3003/courses/4', {
+    method: 'put',
+    body: JSON.stringify({
+        title: 'Java'
+    }),
+    headers: {
+        'Content-Type': 'application/json'
+    }
+})
