@@ -6,8 +6,10 @@
   "author": "Anatoly Kulishov <anatoly.kulishov99@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "dev": "nodemon dist/index.js",
-    "watch": "tsc -w"
+    "dev": "nodemon --inspect dist/src/index.js",
+    "watch": "tsc -w",
+    "build": "tsc",
+    "start": "node dist/src/index.js"
   },
   "dependencies": {
     "express": "^4.19.2"
